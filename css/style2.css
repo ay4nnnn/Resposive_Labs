@@ -1,0 +1,221 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.container {
+  max-width: 65rem;
+  margin: 1rem auto;
+  min-width: 50rem;
+}
+
+.title {
+  border-bottom: 1px dotted #bbbbbb;
+  width: 25 rem;
+  margin-bottom: 4rem;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+body {
+  background-color: rgb(2, 53, 40);
+}
+p {
+  font-family: "Roboto", sans-serif;
+  line-height: calc(37 / 21);
+  font-size: 1.2rem;
+  font-size: clamp(
+    1.2rem,
+    1.09789898989899rem + 0.2686868686868687vw,
+    1.333rem
+  );
+  color: rgba(104, 136, 17, 0.692);
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  line-height: calc(138 / 90);
+  font-size: 2.986rem;
+  font-size: clamp(
+    2.986rem,
+    0.9716161616161618rem + 5.301010101010101vw,
+    5.61rem
+  );
+  color: rgba(206, 219, 14, 0.692);
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  line-height: calc(104 / 67);
+  font-size: 2.488rem;
+  font-size: clamp(
+    2.488rem,
+    1.1668282828282828rem + 3.4767676767676767vw,
+    4.209rem
+  );
+  color: rgba(206, 219, 14, 0.692);
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+  line-height: calc(81 / 51);
+  font-size: 2.074rem;
+  font-size: clamp(
+    2.074rem,
+    1.2426060606060603rem + 2.1878787878787884vw,
+    3.157rem
+  );
+  color: rgba(206, 219, 14, 0.692);
+}
+h4 {
+  font-size: 1.728rem;
+  font-size: clamp(
+    1.728rem,
+    1.2359191919191916rem + 1.2949494949494955vw,
+    2.369rem
+  );
+  line-height: calc(37 / 21);
+}
+a:link {
+  font-family: "Roboto", sans-serif;
+  line-height: calc(37 / 21);
+  font-size: 1.2rem;
+  font-size: clamp(
+    1.2rem,
+    1.09789898989899rem + 0.2686868686868687vw,
+    1.333rem
+  );
+  color: rgba(206, 219, 14, 0.692);
+}
+a:visited {
+  font-family: "Roboto", sans-serif;
+  line-height: calc(37 / 21);
+  font-size: 1.2rem;
+  font-size: clamp(
+    1.2rem,
+    1.09789898989899rem + 0.2686868686868687vw,
+    1.333rem
+  );
+  color: rgba(113, 185, 98, 0.877);
+}
+hr {
+  width: 95%;
+  background-color: rgb(1, 219, 128);
+  height: 10px;
+  border: 0;
+}
+th {
+  color: seagreen;
+  font-size: 1.2rem;
+  font-size: clamp(
+    1.2rem,
+    1.09789898989899rem + 0.2686868686868687vw,
+    1.333rem
+  );
+  background-color: aquamarine;
+  font-weight: bold;
+}
+td {
+  color: seagreen;
+  font-size: 1.2rem;
+  font-size: clamp(
+    1.2rem,
+    1.09789898989899rem + 0.2686868686868687vw,
+    1.333rem
+  );
+  background-color: aquamarine;
+}
+ol {
+  color: rgb(9, 224, 102);
+  line-height: calc(37 / 21);
+  font-size: 1.2rem;
+  font-size: clamp(
+    1.2rem,
+    1.09789898989899rem + 0.2686868686868687vw,
+    1.333rem
+  );
+}
+ul {
+  color: rgb(9, 224, 102);
+  line-height: calc(37 / 21);
+  font-size: 1.2rem;
+  font-size: clamp(
+    1.2rem,
+    1.09789898989899rem + 0.2686868686868687vw,
+    1.333rem
+  );
+}
+blockquote {
+  color: rgb(88, 129, 22);
+  line-height: calc(37 / 21);
+  font-size: 1.2rem;
+  font-size: clamp(
+    1.2rem,
+    1.09789898989899rem + 0.2686868686868687vw,
+    1.333rem
+  );
+}
+
+.blue_h2 {
+  color: blue;
+  margin-bottom: 0px;
+}
+.red_h2 {
+  color: red;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+.goal-image {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.goals {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+
+.food-text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+.food-images {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.food {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.food-text h3 {
+  margin-bottom: -25px;
+}
+
+/* Corrado helped me in adding this comment, i didnt know how to add comments in css */
