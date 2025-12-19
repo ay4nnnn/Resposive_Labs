@@ -1,0 +1,29 @@
+Which layout scheme will result in a responsive layout? Flexbox
+
+What is the correct format for specifying a CSS media query? @media(min-width: 785px){background-color: red;}
+
+What does the "viewport" refer to in the context of responsive web design? The visible area of the webpage in the browser window
+
+Which web design element focuses on ensuring that the website is accessible and usable on all devices and screen sizes? Responsive Design
+
+Which size unit is fixed and will not scale with the size of the viewport? px
+
+What would we write to make the background color change to blue for pages smaller than 600px? @media(max-width: 600px){background-color: blue;}
+
+What would we write to make the background color change to red for pages larger than 785px? @media(min-width: 785px){background-color: red;}
+
+To make our font size scale responsive... what function do we use? use the clamp function
+
+When building a responsive web page, one should always include the meta tag: <meta name="viewport" content="width=device-width, initial-scale=1.0">. Where does this tag go? Inside the <head> tags in the html file
+
+What is the purpose of the responsive design in web design? To make the website adapt and display correctly on various devices
+
+True or False. If you set the width of an image to 100% style='width:100%' the image will never be larger than its original size False
+
+Which devices should responsive web design account for? All devices including desktops, laptops, tablets and phones
+
+What does responsive web design aim to achieve? Resizing, hiding, shrinking or moving content to fit any size screen
+
+Why should you avoid "large fixed width elements" in responsive web design? They can necessitate horizontal scrolling on smaller devices
+
+Which of the following is recommended for improving responsive design? Use relative width values such as "width: 100%;"
